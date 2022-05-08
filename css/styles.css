@@ -1,0 +1,291 @@
+@import url('http://fonts.cdnfonts.com/css/pretendo');
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@800&display=swap');
+             
+body {
+    height: 100vh;
+    background-color:lightgoldenrodyellow;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.principal {
+    width: 60em;
+    height: 30em;
+    background-color:lightgray;
+    padding: 4em 2em 2em 2em;
+    border-radius: 1.5em;
+    box-shadow: 0px -25px 5px rgba(97, 97, 97, 0.536);
+    /*box-shadow: -12px -12px 20px 10px rgba(8, 8, 8, 0.2);*/
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.izq {
+    height: 30em;
+    width: 20em;
+    background-color:rgb(36, 36, 36);
+    border-radius: 1.5em 0em 0em 1.5em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.centro {
+    height: 30em;
+    width: 20em;
+    background-color:rgb(36, 36, 36);
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+}
+
+.centrales {
+    height: 3.5em;
+    width: 15em;
+    background-color: gray;
+    border-radius: 0.5em;
+    display:flex;
+    flex-direction:column;
+    justify-content:space-between;
+}
+
+.centralbuttons {
+    height: 7em;
+    width: 15em;
+    background-color:rgb(231, 226, 219);
+    border-radius: 0.5em;
+    display:flex;
+    flex-direction:row;
+    justify-content:space-evenly;
+}
+
+.letras {
+    height: 3em;
+    width: 15em;
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+}
+
+.h3 {
+    height: fit-content;
+    align-content: center;
+    font-family: 'Orbitron', sans-serif;
+    font-weight:bolder;
+    font-size: 1em;
+    color: darkred;
+    height: 3em;
+    width: 15em;
+    margin-top: 0.1em;
+    display:flex;
+    justify-content:space-evenly;
+}
+
+.shadow {
+    /* top | right | bottom | left */
+    border-style: solid none none solid;
+    border-width:large;
+    border-color: rgba(92, 92, 92, 0.515);
+    height: 5em;
+    width: 13.5em;
+    background-color: rgba(181, 181, 181, 0.679);
+    border-radius: 0.5em;
+    margin-top: 0.8em;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.botonescentrales {
+    height: 1.6em;
+    width: 5em;
+    background-color: rgb(79, 79, 79);
+    border-style: solid solid none solid;
+    border-width: thick;
+    border-color: rgba(58, 58, 58, 0.664);
+    border-radius: 0.7em;
+    margin-inline: 1em;
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+}
+
+.der {
+    height: 30em;
+    width: 20em;
+    background-color: rgb(36, 36, 36);
+    border-radius: 0em 1.5em 1.5em 0em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.horizontal {
+    height: 4em;
+    width: 13em;
+    background-color: black;
+    border-radius: 0.5em;
+    display: flex;
+    align-items: center;
+    z-index: 1;
+    position: absolute;
+}
+
+.circulo {
+    width: 3em;
+    height: 3em;
+    background-color:black;
+    border-radius: 50em;
+    border-style: solid solid none solid;
+    border-width: large;
+    border-color:rgb(28, 28, 28);
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    z-index: 2;
+    
+}
+
+.vertical {
+    height: 13em;
+    width: 4em;
+    background-color: black;
+    border-radius: 0.5em;
+    display: flex;
+    align-items: center;
+}
+
+.derecharriba {
+    height: 20em;
+    width: 20em;
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content:center;
+}
+
+.derecharriba2 {
+    height: 10em;
+    width: 20em;
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content:center;
+}
+
+
+h2 {
+    font-family: 'Pretendo', sans-serif;
+    color: darkred;
+    font-size: 1.9em;
+    text-align: left;
+    position: relative;
+}
+
+span{
+    content: "\00AE";
+    color: darkred;
+}
+
+.derechabajo {
+    background-color: rgb(36, 36, 36);
+    width:20em;
+    height: 10em;
+    display: flex;
+    position: relative;
+    justify-content: space-evenly;
+    align-items:center;
+    flex-direction: row;
+}
+
+.derechabajo2 {
+    background-color:rgb(36, 36, 36);
+    font-weight: bold;
+    height: 3em;
+    width:20em;
+    display: flex;
+    position: relative;
+    justify-content: space-evenly;
+    align-items:center;
+    flex-direction: row;
+}
+
+.contenedora{
+    height: 5em;
+    width: 5em;
+    background-color: grey;
+    border-radius: 0.5em;
+    padding: 1em;
+    display: flex;
+    position:relative;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: row;
+}
+
+.contenedorb{
+    width: 5em;
+    height: 5em;
+    background-color: grey;
+    border-radius: 0.5em;
+    padding: 1em;
+    display: flex;
+    position: relative;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: row;
+}
+
+.buttonb{
+    width: 5em;
+    height: 5em;
+    background-color: darkred;
+    border-radius: 50em;
+    border-style: solid solid none solid;
+    border-width: large;
+    border-color:rgb(28, 28, 28);
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.buttona{
+    width: 5em;
+    height: 5em;
+    background-color: darkred;
+    border-radius: 50em;
+    border-style: solid solid none solid;
+    border-width: large;
+    border-color: rgb(28, 28, 28);
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.a {
+    font-family: 'Orbitron', sans-serif;
+    font-weight: bold;
+    font-size: 1.1em;
+    color: darkred;
+    margin: 0.5em;
+}
+
+.b {
+    font-family: 'Orbitron', sans-serif;
+    font-weight: bold;
+    font-size: 1.1em;
+    color: darkred;
+    margin: 0.5em;
+}
